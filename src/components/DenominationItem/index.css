@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.li-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  background-color: #c4c4c4;
+  border-color: #382f5a;
+  border-width: 1px;
+  border-radius: 12px;
+  height: 45px;
+  width: 120px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 15px;
+  margin-left: 15px;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
+
+@media (max-width: 576px) {
+  .btn {
+    width: 100px;
+  }
+}

@@ -1,0 +1,71 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #150b3e;
+  min-height: 60vh;
+  border-radius: 20px;
+  border-style: solid;
+  margin: 30px;
+  width: 30%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+@media (max-width: 576px) {
+  .bg-container {
+    width: 80%;
+  }
+}
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.person-logo {
+  background-color: #c7d2fe;
+  border-radius: 100px;
+  width: 80px;
+  height: 80px;
+  padding-left: 30px;
+  padding-top: 20px;
+  color: #7c3aed;
+}
+
+.name {
+  color: #c7d2fe;
+  font-size: 22px;
+  font-weight: 500;
+  padding-left: 15px;
+}
+
+.balance-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.balance-title {
+  color: #c4c4c4;
+}
+
+.balance-card {
+  color: #d4d2db;
+}
+
+.ul-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.title {
+  color: #ffffff;
+  font-size: 22px;
+}
+.para {
+  color: #c4c4c4;
+}
